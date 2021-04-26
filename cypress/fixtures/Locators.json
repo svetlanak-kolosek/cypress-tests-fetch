@@ -1,0 +1,31 @@
+{
+    "Register": {
+        "Submit":".btn",
+        "SignUp":".button",
+        "Email":".field",
+        "Password":".field",
+        "PasswordConf":".field",
+        "Message":".alert"
+    },
+
+    "Login": {
+        "Submit": ".btn",
+        "SignIn": ".button",
+        "Email": "#user_email",
+        "Password": "#user_password",
+        "SignOut": "#logout",
+        "Message": ".alert"
+    },
+
+    "SignOut": {
+        "Login": ".btn",
+        "SignIn": ".button",
+        "Email": "#user_email",
+        "Password": "#user_password",
+        "LogOut": "#logout",
+        "Message": ".alert"
+    }
+
+    
+
+}
