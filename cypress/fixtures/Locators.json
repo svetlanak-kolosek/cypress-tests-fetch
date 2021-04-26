@@ -40,6 +40,23 @@
         "Previous": ".prev",
         "Last": ".last",
         "First": ".first"
+    },
+
+    "SubmitTracking": {
+        "URL": "#task_url",
+        "TaskKeywords": "#task_words",
+        "TaskEmail": "#task_email",
+        "Public": "#task_published_true",
+        "Submit": ".btn",
+        "Message": ".alert",
+        "SignIn": ".button",
+        "Email":"#user_email",
+        "Password": "#user_password",
+        "NewTask": ".btn",
+        "Keyword": ".keyword",
+        "Title": ".flex-column",
+        "Private": "#task_published_false",
+        "PublicTasks": ".btn"
     }
 
     
