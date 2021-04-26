@@ -1,6 +1,6 @@
 {
     "Register": {
-        "Register":".btn",
+        "Submit":".btn",
         "SignUp":".button",
         "Email":".field",
         "Password":".field",
@@ -9,7 +9,7 @@
     },
 
     "Login": {
-        "Login": ".btn",
+        "Submit": ".btn",
         "SignIn": ".button",
         "Email": "#user_email",
         "Password": "#user_password",
@@ -22,7 +22,7 @@
         "SignIn": ".button",
         "Email": "#user_email",
         "Password": "#user_password",
-        "SignOut": "#logout",
+        "LogOut": "#logout",
         "Message": ".alert"
     }
 
