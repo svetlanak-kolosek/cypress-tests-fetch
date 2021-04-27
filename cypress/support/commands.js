@@ -23,3 +23,16 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("Login", () => {
+    cy.visit("https://notify.kolosek.com/")
+    const loginBtn = ".btn";
+    const emailField = "#user_email";
+    const passwordField = "#user_password";
+    const sign_in = ".button";
+
+    cy.get(loginBtn).eq(0).click()
+    cy.get(sign_in).should("be.visible").and("have.value", "Sign in")
+    cy.get(emailField).type("kolosek@mailinator.com")
+    cy.get(passwordField).type("1234test")
+    cy.get(sign_in).click()
+    });

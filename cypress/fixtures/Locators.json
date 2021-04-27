@@ -57,6 +57,21 @@
         "Title": ".flex-column",
         "Private": "#task_published_false",
         "PublicTasks": ".btn"
+    },
+
+    "NewTask": {
+        "SignOut": "#logout",
+        "Message": ".alert",
+        "Task": ".btn",
+        "URL": "#url",
+        "Keyword": "#words",
+        "Private": "#task_published_false",
+        "CreateTask": ".btn.button-header",
+        "Keywords": ".keyword",
+        "On": ".onswitch",
+        "Off": ".offswitch",
+        "Delete": ".btn.delete",
+        "AlertMessage": "window:confirm"
     }
 
     
