@@ -1,0 +1,79 @@
+{
+    "Register": {
+        "Submit":".btn",
+        "SignUp":".button",
+        "Email":".field",
+        "Password":".field",
+        "PasswordConf":".field",
+        "Message":".alert"
+    },
+
+    "Login": {
+        "Submit": ".btn",
+        "SignIn": ".button",
+        "Email": "#user_email",
+        "Password": "#user_password",
+        "SignOut": "#logout",
+        "Message": ".alert"
+    },
+
+    "SignOut": {
+        "Login": ".btn",
+        "SignIn": ".button",
+        "Email": "#user_email",
+        "Password": "#user_password",
+        "LogOut": "#logout",
+        "Message": ".alert"
+    },
+
+    "PublicUsersTasks": {
+        "PublicTasks": ".btn",
+        "Title": ".flex-column",
+        "Claim": ".button_to",
+        "SignIn": ".button",
+        "Flag": ".button_to",
+        "Email": "#user_email",
+        "Password": "#user_password",
+        "Message": ".alert",
+        "NewTask": ".btn",
+        "Next": ".next",
+        "Previous": ".prev",
+        "Last": ".last",
+        "First": ".first"
+    },
+
+    "SubmitTracking": {
+        "URL": "#task_url",
+        "TaskKeywords": "#task_words",
+        "TaskEmail": "#task_email",
+        "Public": "#task_published_true",
+        "Submit": ".btn",
+        "Message": ".alert",
+        "SignIn": ".button",
+        "Email":"#user_email",
+        "Password": "#user_password",
+        "NewTask": ".btn",
+        "Keyword": ".keyword",
+        "Title": ".flex-column",
+        "Private": "#task_published_false",
+        "PublicTasks": ".btn"
+    },
+
+    "NewTask": {
+        "SignOut": "#logout",
+        "Message": ".alert",
+        "Task": ".btn",
+        "URL": "#url",
+        "Keyword": "#words",
+        "Private": "#task_published_false",
+        "CreateTask": ".btn.button-header",
+        "Keywords": ".keyword",
+        "On": ".onswitch",
+        "Off": ".offswitch",
+        "Delete": ".btn.delete",
+        "AlertMessage": "window:confirm"
+    }
+
+    
+
+}
